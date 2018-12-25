@@ -3,7 +3,7 @@ package fizzbuzz_tdd_go
 import "strconv"
 
 func FizzBuzz(input int) string {
-	if input == 15 {
+	if input % 15 == 0{
 		return "fizzbuzz"
 	}
 	if input % 5 == 0{
