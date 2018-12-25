@@ -9,3 +9,11 @@ func TestInput_1_ShouldBe_1(t *testing.T) {
 		t.Errorf("Actual = %s, expected = %s", fb, expected)
 	}
 }
+
+func TestInput_2_ShouldBe_2(t *testing.T) {
+	fb := FizzBuzz(2)
+	expected := "2"
+	if fb != expected {
+		t.Errorf("Actual = %s, expected = %s", fb, expected)
+	}
+}
